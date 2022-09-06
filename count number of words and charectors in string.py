@@ -1,4 +1,4 @@
-string=str(input("enter any statement:"))
+string=str(input("enter any sentance:"))
 print("the original string is :",string)
 res=len(string.split())
 print("the number of words in that sentence is:",str(res))
