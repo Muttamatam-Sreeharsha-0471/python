@@ -3,6 +3,7 @@ cpp=int(input("enter your marks in cpp:"))
 python=int(input("enter your marks in python:"))
 java=int(input("enter your marks in java:"))
 
+total=c+cpp+python+java
 avg_marks=(c+cpp+python+java)/4;
 
 if(avg_marks>=90):
@@ -20,4 +21,5 @@ elif(avg_marks<50 and avg_marks>=40):
 else:
     print("You Are Fail.")
 
+print("Your total marks is:",total)
 print("Your average marks is:",avg_marks)
